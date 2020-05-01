@@ -13,4 +13,4 @@
       branch:
         - master
     commands:
-    - echo hello world
+    - rsync -avzh . /home/sasha/drone-test
